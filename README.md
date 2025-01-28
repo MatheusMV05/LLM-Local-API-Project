@@ -53,13 +53,7 @@ http://127.0.0.1:8000
 
 4. O resumo será exibido na página e poderá ser baixado como um arquivo Word.
 
-Estrutura do Código:
-    /summarize/: Endpoint para resumir o texto e gerar um arquivo Word.
-    /download/{file_name}: Endpoint para download do arquivo gerado.
-    run_llama: Função que interage com o modelo LLaMA via Ollama para gerar o resumo.
-    save_to_word: Salva o resumo em um arquivo Word com um nome amigável baseado no conteúdo.
-    extract_keyword: Extrai a palavra-chave mais relevante do resumo.
-    generate_friendly_title: Gera um título amigável para o arquivo Word.
+
    
 
 
