@@ -27,9 +27,9 @@ Antes de executar a aplicação, certifique-se de ter os seguintes requisitos in
 ## Instalação
 
 1. Clone este repositório:
-   ```
-   git clone https://github.com/MatheusMV05/LLM-Local-API-Project.git
-   ```
+```
+git clone https://github.com/MatheusMV05/LLM-Local-API-Project.git
+```
 2. Crie um ambiente virtual:
 ```
 python -m venv env
