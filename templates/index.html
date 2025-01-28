@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo com LLaMA</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerador de Resumos com LLaMA</h1>
+        <form method="post" action="/summarize/">
+            <textarea name="text" placeholder="Digite ou cole o texto para resumir..." required></textarea>
+            <button type="submit">Gerar Resumo</button>
+        </form>
+
+        {% if summary %}
+        <div class="result">
+            <h2>Resumo Gerado:</h2>
+            <p>{{ summary }}</p>
+            <a href="/download/{{ file_path }}" class="btn">Baixar Resumo</a>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
