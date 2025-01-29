@@ -22,6 +22,8 @@ Antes de executar a aplicação, certifique-se de ter os seguintes itens instala
 - **Ollama** (para rodar o modelo LLaMA 2)
 
 ---
+Caso não tenha instalado baixe e instale o Ollama a partir do link oficial:
+https://ollama.com/download
 
 ## ⚙️ Instalação
 
@@ -38,7 +40,6 @@ source env/bin/activate  # No Windows: env\Scripts\activate
 ```sh
 pip install -r requirements.txt
 ```
-
 ---
 
 ## ▶️ Como Usar
