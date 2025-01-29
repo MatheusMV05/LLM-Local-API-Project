@@ -6,7 +6,7 @@ Este projeto é uma aplicação web desenvolvida com FastAPI que utiliza um mode
 
 - **Interface Web**: Uma página inicial simples para enviar textos e visualizar os resumos gerados.
 - **Resumos Baseados em LLaMA 2**: Uso de um modelo LLaMA para resumir textos.
-- **Arquivos Word**: Os resumos gerados são salvos em arquivos `.docx` com nomes amigáveis.
+- **Arquivos Word**: Os resumos gerados são salvos em arquivos `.docx`.
 - **Download de Arquivos**: Os arquivos podem ser baixados diretamente pela interface web.
 
 ---
